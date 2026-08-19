@@ -7,7 +7,9 @@ authors = [
     { name = "Prudhvi.Adari", email = "prudhvijayakumara@gmail.com" }
 ]
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "google-genai>=1.47.0",
+]
 
 [project.scripts]
 mac-learning = "mac_learning:main"
